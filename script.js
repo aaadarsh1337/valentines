@@ -65,7 +65,7 @@ yesBtn.addEventListener("click", () => {
     catImg.src = "cat_dance.gif";
 
     document.querySelector(".letter-window").classList.add("final");
-
+    document.getElementById("nextBtn").classList.remove("hidden");
     buttons.style.display = "none";
 
 function goToLetter() {
