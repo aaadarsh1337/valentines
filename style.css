@@ -143,18 +143,22 @@ display: inline-block;
 }
 
 #nextBtn {
-  margin-top: 20px;
-  padding: 12px 24px;
+  position: fixed;          /* removes it from layout */
+  bottom: 30px;             /* move to a different corner */
+  right: 30px;
+
+  padding: 14px 26px;
   font-size: 18px;
   background-color: #ff7eb3;
   color: white;
-  border: none;
-  border-radius: 25px;
+  text-decoration: none;
+  border-radius: 30px;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
   cursor: pointer;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  z-index: 9999;
 }
 
 #nextBtn:hover {
-  background-color: #ff4f9a;
   transform: scale(1.05);
 }
