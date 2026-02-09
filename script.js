@@ -69,7 +69,3 @@ yesBtn.addEventListener("click", () => {
     buttons.style.display = "none";
     finalText.style.display = "block";
 });
-
-function goToLetter() {
-  window.location.href = "letter.html";
-}
