@@ -138,6 +138,10 @@ display: inline-block;
     border-radius: 12px;
 }
 
+.hidden {
+  display: none;
+}
+
 #nextBtn {
   margin-top: 20px;
   padding: 12px 24px;
