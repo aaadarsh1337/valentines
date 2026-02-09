@@ -68,5 +68,10 @@ yesBtn.addEventListener("click", () => {
 
     buttons.style.display = "none";
 
+function goToLetter() {
+  window.location.href = "letter.html";
+}
+
+
     finalText.style.display = "block";
 });
