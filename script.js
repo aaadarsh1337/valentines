@@ -67,11 +67,9 @@ yesBtn.addEventListener("click", () => {
     document.querySelector(".letter-window").classList.add("final");
     document.getElementById("nextBtn").classList.remove("hidden");
     buttons.style.display = "none";
+    finalText.style.display = "block";
+});
 
 function goToLetter() {
   window.location.href = "letter.html";
 }
-
-
-    finalText.style.display = "block";
-});
